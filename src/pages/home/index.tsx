@@ -1,5 +1,14 @@
-function home() {
-  return <h1>home</h1>;
-}
+import DefaultLayout from "@/components/layout/defaultLayout";
+import React from "react";
 
-export default home;
+type Props = {};
+
+const Home = (props: Props) => {
+  return (
+    <DefaultLayout>
+      <h1>fff</h1>
+    </DefaultLayout>
+  );
+};
+
+export default Home;
