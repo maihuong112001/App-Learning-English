@@ -8,6 +8,13 @@ const images = {
     sl3: require('@/assets/images/slide/sl3.jpg'),
     test1: require('@/assets/images/test/test1.png'),
     test2: require('@/assets/images/test/test2.png'),
+
+    fulTest1: require('@/assets/images/test/fultest1.jpg'),
+    fulTest2: require('@/assets/images/test/fultest2.jpg'),
+    fulTest3: require('@/assets/images/test/fultest3.jpg'),
+    fulTest4: require('@/assets/images/test/fultest4.jpg'),
+    fulTest5: require('@/assets/images/test/fultest5.jpg'),
+    fulTest6: require('@/assets/images/test/fultest6.jpg'),
 };
 
 export default images;
