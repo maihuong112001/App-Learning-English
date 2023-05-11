@@ -6,63 +6,63 @@ import { Dropdown } from "antd";
 import Link from "next/link";
 const items: MenuProps["items"] = [
   {
-    label: <Link href={"/"}>Phần 1: Mô Tra Tranh</Link>,
+    label: <Link href={"/practice"}>Phần 1: Mô Tra Tranh</Link>,
     key: "0",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 2: Hổi - Đáp</Link>,
+    label: <Link href={"/practice"}>Phần 2: Hổi - Đáp</Link>,
     key: "1",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 3: Đoạn Hội Thoại</Link>,
+    label: <Link href={"/practice"}>Phần 3: Đoạn Hội Thoại</Link>,
     key: "2",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 4: Hổi - Đáp</Link>,
+    label: <Link href={"/practice"}>Phần 4: Hổi - Đáp</Link>,
     key: "3",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 5: Bài Nói Ngắn</Link>,
+    label: <Link href={"/practice"}>Phần 5: Bài Nói Ngắn</Link>,
     key: "4",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 6: Hoàn Thành Câu</Link>,
+    label: <Link href={"/practice"}>Phần 6: Hoàn Thành Câu</Link>,
     key: "5",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 7: Đọc Hiểu Đoạn Đơn</Link>,
+    label: <Link href={"/practice"}>Phần 7: Đọc Hiểu Đoạn Đơn</Link>,
     key: "6",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 8: Đọc Hiểu - Đoạn Kép</Link>,
+    label: <Link href={"/practice"}>Phần 8: Đọc Hiểu - Đoạn Kép</Link>,
     key: "7",
   },
   {
     type: "divider",
   },
   {
-    label: <Link href={"/"}>Phần 9: Đọc Hiểu - Đoạn Ba</Link>,
+    label: <Link href={"/practice"}>Phần 9: Đọc Hiểu - Đoạn Ba</Link>,
     key: "8",
   },
 ];
