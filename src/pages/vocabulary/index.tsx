@@ -3,61 +3,116 @@ import React from "react";
 import { Col, Row } from "antd";
 import { ReadFilled, RightOutlined } from "@ant-design/icons";
 type Props = {};
-const Grammar = (props: Props) => {
+const Vocabulary = (props: Props) => {
   return (
     <DefaultLayout>
       <div className="w-[100%] text-center px-14 py-10 bg-gray-50">
         <h1 className="font-semibold text-2xl">
-          Luyện ngữ pháp TOEIC online miễn phí
+          Học từ vựng TOEIC online theo chủ đề
         </h1>
         <div className="flex justify-between w-[100%] mt-6">
-          <div className="w-[60%]">
-            <h1 className="font-semibold text-lg">Luyện ngữ pháp</h1>
-            <div className="w-[100%] bg-lime-100 rounded-lg px-4 py-6 mt-4">
-              <Row className="font-semibold text-3xl space-y-2 space-x-2">
-                <Col
-                  className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 mt-[8px] ml-2 hover:text-lime-600"
-                  span={11}
-                >
-                  <ReadFilled className="mt-3" />
-                  <p>NOUNS</p>
-                </Col>
-                <Col
-                  className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
-                  span={11}
-                >
-                  <ReadFilled className="mt-3" />
-                  <p>FUTURE CONTINUOUS TENSE</p>
-                </Col>
-                <Col
-                  className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
-                  span={11}
-                >
-                  <ReadFilled className="mt-3" />
-                  <p>ADJECTIVES</p>
-                </Col>
-                <Col
-                  className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
-                  span={11}
-                >
-                  <ReadFilled className="mt-3" />
-                  <p>FUTURE PERFECT TENSE</p>
-                </Col>
-                <Col
-                  className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
-                  span={11}
-                >
-                  <ReadFilled className="mt-3" />
-                  <p>ADVERBS</p>
-                </Col>
-                <Col
-                  className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
-                  span={11}
-                >
-                  <ReadFilled className="mt-3" />
-                  <p>NOUN, ADJECTIVE, ADVERB EXCERCISES</p>
-                </Col>
-              </Row>
+          <div className="w-[60%] space-y-10">
+            <div>
+              <h1 className="font-semibold text-lg">
+                TOEIC VOCABULARY (BY TOPIC)
+              </h1>
+              <div className="w-[100%] bg-lime-100 rounded-lg px-4 py-6">
+                <Row className="font-semibold text-3xl space-y-2 space-x-2">
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 mt-[8px] ml-2 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>NOUNS</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>FUTURE CONTINUOUS TENSE</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>ADJECTIVES</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>FUTURE PERFECT TENSE</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>ADVERBS</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>NOUN, ADJECTIVE, ADVERB EXCERCISES</p>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+            <div>
+              <h1 className="font-semibold text-lg">
+                TOEIC VOCABULARY (BY PART)
+              </h1>
+              <div className="w-[100%] bg-lime-100 rounded-lg px-4 py-6">
+                <Row className="font-semibold text-3xl space-y-2 space-x-2">
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 mt-[8px] ml-2 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>NOUNS</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>FUTURE CONTINUOUS TENSE</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>ADJECTIVES</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>FUTURE PERFECT TENSE</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>ADVERBS</p>
+                  </Col>
+                  <Col
+                    className="flex cursor-pointer bg-white p-3 rounded-lg space-x-4 hover:text-lime-600"
+                    span={11}
+                  >
+                    <ReadFilled className="mt-3" />
+                    <p>NOUN, ADJECTIVE, ADVERB EXCERCISES</p>
+                  </Col>
+                </Row>
+              </div>
             </div>
             <div className="w-[100%] pt-4 text-left space-y-3">
               <h1 className="font-semibold text-lg">
@@ -166,4 +221,4 @@ const Grammar = (props: Props) => {
   );
 };
 
-export default Grammar;
+export default Vocabulary;
